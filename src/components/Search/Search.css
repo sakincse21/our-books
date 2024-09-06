@@ -1,0 +1,57 @@
+.searchArea{
+    background-image: url('../../assets/images/Literature-bro.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBox{
+    /* border: 2px solid red; */
+    padding: 50px 100px;
+    border-radius: 16px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(63, 63, 63, 0.3);
+}
+
+#search{
+    font-size: 20px;
+    border-radius: 8px 0 0 8px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    filter: drop-shadow(2px 2px 4px rgba(45, 77, 77, 0.603));
+}
+#button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    background-color: #407bff;
+    color: white;
+    filter: drop-shadow(2px 2px 4px rgba(45, 77, 77, 0.603));
+}
+
+@media (max-width: 719px) {
+    .searchArea{
+    }
+    .searchBox{
+        padding: 30px 40px;
+        border-radius: 16px;
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+    #search{
+        border-radius: 8px;
+    }
+    #button{
+        border-radius: 8px;
+        margin-top: 2px;
+    }
+}

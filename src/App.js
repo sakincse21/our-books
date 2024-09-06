@@ -1,9 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Search from './components/Search/Search';
 
 function App() {
   return (
-    <>start sample</>
+    <>
+      <Header></Header>
+      <Search></Search>
+    </>
   );
 }
 
